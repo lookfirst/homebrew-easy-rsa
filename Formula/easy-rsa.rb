@@ -8,7 +8,7 @@ class EasyRsa < Formula
   def install
     share.install %w(
       easyrsa3/easyrsa
-      easyrsa3/openssl-1.0.cnf
+      easyrsa3/openssl-easyrsa.cnf
       easyrsa3/vars.example
     )
 
